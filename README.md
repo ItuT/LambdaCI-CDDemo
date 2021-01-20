@@ -28,7 +28,7 @@ https://github.com/aws/serverless-application-model/issues/1154
 ### Application Setup
 
 ## Sam Template
-_ Template.yaml
+ -Template.yaml
 
 ### CodeBuild Spec
 - buildspec.yml
@@ -36,7 +36,5 @@ _ Template.yaml
 ### Pipeline
 - Source
 - Build
-- CreateChangeSet
-- ApproveChangeSet
 - ExecuteChangeSet
 
