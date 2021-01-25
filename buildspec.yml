@@ -4,7 +4,7 @@ phases:
     runtime-versions:
       python: 3.7
     commands:
-      - - aws s3api create-bucket --bucket lambda-ci-cd-sandbox-bucket-voda --region eu-west-1
+      - aws s3api create-bucket --bucket lambda-ci-cd-sandbox-bucket-voda --region eu-west-1
       - aws cloudformation package --template-file template.yaml --s3-bucket lambda-ci-cd-demo-bucket-voda --output-template-file outputTemplate.yaml
 artifacts:
   type: zip
